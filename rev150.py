@@ -12,7 +12,7 @@ for i in range(20):
 	solver.add(s[i]>=0)
 	solver.add(s[i]<10)
 
-# add all confiditions
+# add all conditions
 solver.add(s[15] + s[4] == 10)
 solver.add(s[1] * s[18] == 2 )
 solver.add(s[15] / s[9] == 1)
