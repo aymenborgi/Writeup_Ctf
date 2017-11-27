@@ -17,7 +17,7 @@ Our assembly code show us these things :
 
 1- len(input) == 56
 
-2-there is a loop that encrypt our characters and  check each of it with 56 encrypted character, if encrypt(input[i]) !=encrypt(flag[i]): mov     cs:dword_603084, 1
+2-there is a loop that encrypt our characters and  check each of it with an encrypted character, if encrypt(input[i]) !=encrypt(flag[i]): mov     cs:dword_603084, 1
 
 3- if(dword_603084 ==1): failed
 
