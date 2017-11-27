@@ -1,5 +1,7 @@
 #This is a quick and dirty writeup 
+
 Hi,
+
 The given file (unknown) is an ELF 64-bit LSB executable stripped .
 A binary without anti-debug tricks or obfuscation .
 
