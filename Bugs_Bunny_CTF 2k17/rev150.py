@@ -37,7 +37,7 @@ solver.add(s[10] % s[15] == 2)
 solver.add(s[11] / s[3] == 0)
 solver.add(s[14] - s[13] == -4)
 solver.add(s[18] + s[19] == 3)
-#don't forget about s[3]!=0 because 's[11] / s[3]' we can't devide by zero
+#don't forget about s[3]!=0 because we can't devide by zero 's[11] / s[3]'
 solver.add(s[3]!=0)
 if (solver.check() == sat):
 	print solver.model()
